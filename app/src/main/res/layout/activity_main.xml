@@ -4,18 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#e6b7cb"
+    android:background="@drawable/traba1"
     tools:context="com.example.samsung.trabalho02thaise_2018_1.MainActivity"
     android:orientation="vertical">
 
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
         android:ems="10"
         android:id="@+id/etCargo"
-        android:hint="Cargo" />
+        android:textAlignment="center"
+        android:hint="Cargo do trabalhador" />
 
     <RadioGroup
         android:id="@+id/rgCargo"
@@ -24,6 +28,7 @@
 
         <RadioButton
             android:id="@+id/rbGerente"
+            android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
@@ -31,12 +36,14 @@
 
         <RadioButton
             android:id="@+id/rbSupervisor"
+            android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Supervisor" />
 
         <RadioButton
             android:id="@+id/rbServente"
+            android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Servente" />
@@ -49,6 +56,9 @@
         android:inputType="textPersonName"
         android:ems="10"
         android:id="@+id/etHorasExtraTrabalhadas"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
         android:hint="Número de horas EXTRAS trabalhadas" />
 
     <EditText
@@ -56,6 +66,9 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
         android:id="@+id/etNfilhos"
         android:hint="Numero de filhos" />
 
@@ -64,6 +77,9 @@
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
         android:ems="10"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
         android:id="@+id/etNfaltas"
         android:hint="Numero de faltas" />
 

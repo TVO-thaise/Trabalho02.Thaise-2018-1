@@ -4,6 +4,7 @@
     android:id="@+id/activity_resultado"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/traba1"
     tools:context="com.example.samsung.trabalho02thaise_2018_1.ActivityResultado"
     android:orientation="vertical">
 

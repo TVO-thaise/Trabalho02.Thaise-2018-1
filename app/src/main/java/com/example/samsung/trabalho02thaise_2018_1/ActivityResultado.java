@@ -26,7 +26,7 @@ public class ActivityResultado extends AppCompatActivity {
 
 
 
-        TextView tvNome = (TextView) findViewById(R.id.tvNome);
+        /*TextView tvNome = (TextView) findViewById(R.id.tvNome);
         tvNome.setText("Nome: "+ nome);
 
         TextView tvSalarioBruto = (TextView) findViewById(R.id.tvSalBruto);
@@ -39,7 +39,7 @@ public class ActivityResultado extends AppCompatActivity {
         tvSindicato.setText("Sindicato: "+ sindicato);
 
         TextView tvSalarioLiquido = (TextView) findViewById(R.id.tvSalLiquido);
-        tvSalarioLiquido.setText("Salário Liquido: "+ salLiquido);
+        tvSalarioLiquido.setText("Salário Liquido: "+ salLiquido);*/
 
     }
 }

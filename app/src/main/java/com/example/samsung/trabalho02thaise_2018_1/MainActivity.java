@@ -14,6 +14,9 @@ public class MainActivity extends AppCompatActivity {
     private EditText horaExtraTrab;
     private EditText filhos;
     private EditText faltas;
+    private EditText proventos;
+    private EditText descontos;
+    private EditText num_filhos;
     private Button calular;
 
     @Override
@@ -21,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        cargo = (RadioButton) findViewById(R.id.etCargo);
+        /*cargo = (RadioButton) findViewById(R.id.etCargo);
         horaExtraTrab = (EditText) findViewById(R.id.etHorasExtraTrabalhadas);
         filhos = (EditText) findViewById(R.id.etNfilhos);
         faltas = (EditText) findViewById(R.id.etNfaltas);
@@ -37,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 horaExtraTrab = salarioBase/240 * 2;
 
                 faltas = salarioBase /30;
-                filhos = salarioBase * 0,03
+                filhos = salarioBase * 0,03;
                 inss = salarioBase * 0.10;
                 proventos = salarioBase + horaExtraTrab + num_filhos * filhos;
                 descontos = inss + faltas;
@@ -47,13 +50,15 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, ActivityResultado.class);
                 intent.putExtra("salarioBase", salarioBase);
                 intent.putExtra("inss", inss);
-                intent.putExtra("sindicato", sindicato);
                 intent.putExtra("salarioLiquido", salarioLiquido);
                 startActivity(intent);
             }
 
-        });
+        });*/
 
     }
 
+    ;
 }
+
+
