@@ -18,28 +18,23 @@ public class ActivityResultado extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        String nome = (String) intent.getSerializableExtra("nome");
-        double salBruto = (double) intent.getSerializableExtra("salarioBruto");
+        String cargo = (String) intent.getSerializableExtra("cargo");
+        double salBase = (double) intent.getSerializableExtra("salarioBase");
         double inss = (double) intent.getSerializableExtra("inss");
-        double sindicato = (double) intent.getSerializableExtra("sindicato");
         double salLiquido = (double) intent.getSerializableExtra("salarioLiquido");
 
 
 
-        /*TextView tvNome = (TextView) findViewById(R.id.tvNome);
-        tvNome.setText("Nome: "+ nome);
+        TextView tvNome = (TextView) findViewById(R.id.tvNome);
+        tvNome.setText("Cargo: "+ cargo);
 
-        TextView tvSalarioBruto = (TextView) findViewById(R.id.tvSalBruto);
-        tvSalarioBruto.setText("Salário Bruto: "+ salBruto);
+        TextView tvSalarioBruto = (TextView) findViewById(R.id.tvSalBase);
+        tvSalarioBruto.setText("Salário Base: "+ salBase);
 
         TextView tvInss = (TextView) findViewById(R.id.tvInss);
         tvInss.setText("INSS: "+ inss);
 
-        TextView tvSindicato = (TextView) findViewById(R.id.tvSindicato);
-        tvSindicato.setText("Sindicato: "+ sindicato);
-
         TextView tvSalarioLiquido = (TextView) findViewById(R.id.tvSalLiquido);
-        tvSalarioLiquido.setText("Salário Liquido: "+ salLiquido);*/
-
+        tvSalarioLiquido.setText("Salário Liquido: "+ salLiquido);
     }
 }

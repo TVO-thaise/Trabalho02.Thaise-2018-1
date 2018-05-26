@@ -10,27 +10,27 @@ import android.widget.RadioButton;
 
 public class MainActivity extends AppCompatActivity {
 
-    private EditText cargo;
+    private RadioButton cargo;
     private EditText horaExtraTrab;
     private EditText filhos;
     private EditText faltas;
     private EditText proventos;
     private EditText descontos;
     private EditText num_filhos;
-    private Button calular;
+    private Button calcular;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /*cargo = (RadioButton) findViewById(R.id.etCargo);
+        cargo = (RadioButton) findViewById(R.id.rgCargo);
         horaExtraTrab = (EditText) findViewById(R.id.etHorasExtraTrabalhadas);
         filhos = (EditText) findViewById(R.id.etNfilhos);
         faltas = (EditText) findViewById(R.id.etNfaltas);
-        calular = (Button) findViewById(R.id.btCalcular);
+        calcular = (Button) findViewById(R.id.btCalcular);
 
-        calular.setOnClickListener(new View.OnClickListener() {
+        calcular.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 double fHoraExtraTrab = Double.parseDouble(horaExtraTrab.getText().toString());
@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
 
-        });*/
+        });
 
     }
 

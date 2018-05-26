@@ -27,6 +27,13 @@
         android:layout_height="wrap_content">
 
         <RadioButton
+            android:id="@+id/rbServente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Servente"
+            android:textSize="20dp" />
+
+        <RadioButton
             android:id="@+id/rbGerente"
             android:textSize="20dp"
             android:layout_width="wrap_content"
@@ -40,13 +47,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Supervisor" />
-
-        <RadioButton
-            android:id="@+id/rbServente"
-            android:textSize="20dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Servente" />
 
     </RadioGroup>
 
@@ -89,4 +89,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btCalcular" />
+
 </LinearLayout>
